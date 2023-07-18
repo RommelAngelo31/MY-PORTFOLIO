@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e10e4b1964.js" crossorigin="anonymous"></script>
+    <title>My portfolio | My skills</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <img src="images/logo1.png" alt="Logo" class="logo">
+
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+
+        <div class="nav__link hide">
+        
+            <a href="index.html">home</a>
+            <a href="myskills.html">My skills</a>
+            <a href="mydreams.html">My Dreams</a>
+            <a href="about.html">About</a>
+        
+        </div>
+      </nav>
+
+    </header>
+
+    <div class="myskills">
+
+        <div class="container">
+    
+                <h1 class="sub-title">My Skills</h1>
+                <div class="skills-list">
+    
+                    <div>
+                      <i class="fa-sharp fa-solid fa-basketball"></i>
+                        <h2>Sports</h2>
+                        <p>  Im actually good in sports especially in Basketball.</p>
+                        <a href="#"> Learn More </a>
+                    </div>
+    
+                    <div>
+                      <i class="fa-sharp fa-solid fa-people-group"></i>
+                        <h2>Teamwork</h2>
+                        <p> Im both good in listening and understanding people.</p>
+    
+                        <a href="#"> Learn More </a>
+    
+                    </div>
+    
+                    <div>
+                      <i class="fa-solid fa-terminal"></i>
+                        <h2>Coding</h2>
+                        <p> Im knowledgeable on some programming languages like HTML/CSS, and Java.</p>
+                        <a href="#"> Learn More </a>
+    
+                    </div>
+
+                    <div>
+                      <i class="fa-solid fa-calendar-day"></i>
+                      <h2>Time managements</h2>
+                      <p> This is one of my traits that I strictly maintain.</p>
+                      <a href="#"> Learn More </a>
+  
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-paintbrush"></i>
+                      <h2>Creativity</h2>
+                      <p>  Im always doing my best to produce good designs.</p>
+  
+                      <a href="#"> Learn More </a>
+  
+                  </div>
+
+                  <div>
+                    <i class="fa-solid fa-book-open-reader"></i>
+                      <h2>Leadership</h2>
+                      <p>  Can effeciently handle people.</p>
+  
+                      <a href="#"> Learn More </a>
+  
+                  </div>
+    
+                 </div>
+                
+                 
+        </div>
+    </div>
+
+</body>
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLink = document.querySelector('.nav__link');
+
+    hamburger.addEventListener('click', () => {
+    navLink.classList.toggle('hide');
+    });
+  </script>
+</html>

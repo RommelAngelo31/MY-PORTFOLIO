@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e10e4b1964.js" crossorigin="anonymous"></script>
+    <title>My portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <img src="images/logo1.png" alt="Logo" class="logo">
+
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+
+        <div class="nav__link hide">
+        
+            <a href="index.html">home</a>
+            <a href="myskills.html">My skills</a>
+            <a href="mydreams.html">My Dreams</a>
+            <a href="about.html">About</a>
+        
+        </div>
+      </nav>
+      
+    </header>
+    <div class="img-1">
+        <img class="bg-1" src="images/bg1.png" alt="main photo">
+    </div>
+    <!-- home -->
+    <div class="header-text"> 
+        <p>BSIT Student</p>
+        <h1>Hi, I'm <span>Rommel Angelo Ebuenga </span> <br>
+            from San Vicente, Bulacan</h1>
+    </div>
+
+</body>
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLink = document.querySelector('.nav__link');
+
+    hamburger.addEventListener('click', () => {
+    navLink.classList.toggle('hide');
+    });
+  </script>
+</html>

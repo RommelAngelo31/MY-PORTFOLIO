@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e10e4b1964.js" crossorigin="anonymous"></script>
+    <title>My portfolio | My dreams</title>
+  </head>
+  <body>
+    <header>
+        <nav class="nav">
+          <img src="images/logo1.png" alt="Logo" class="logo">
+  
+          <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+  
+          <div class="nav__link hide">
+          
+              <a href="index.html">home</a>
+              <a href="myskills.html">My skills</a>
+              <a href="mydreams.html">My Dreams</a>
+              <a href="about.html">About</a>
+          
+          </div>
+        </nav>
+      </header>
+
+      <!-- For the content of My dreams -->
+      <div class="dreams-header">
+        <h1>My Dreams</h1>
+    </div>
+    <div class="bdy">
+        <div class="mydreams-content">
+                <div class="image">
+                    <img src="images/Why Structured Settlements for _Older People__  To Allay Their Greatest Fear.png" alt="money">
+                </div>
+                <div class="text">
+                    <h2>Stable Cash Flow</h2>
+                    <h3>Money is Power. It is my dream to buy everything i want</h3>
+                </div>
+            </div>
+            <div class="mydreams-content">
+                <div class="image">
+                    <img src="images/Budget-friendly Pool Renovations For Your Backyard.png" alt="money">
+                </div>
+                
+                <div class="text">
+                    <h2>Dream House</h2>
+                    <h3>I am also dreaming to have big house or can be called as Mansion, <br> 
+                    Where I can start a memories with my family.
+                    </h3>
+                </div>
+            </div>
+
+            <div class="mydreams-content">
+                <div class="image">
+                    <img src="images/f9591332-3409-4491-9435-7b88a0b863be.jpg" alt="money">
+                </div>
+                
+                <div class="text">
+                    <h2>Become a Professional</h2>
+                    <h3>I really want to become a professional not only in IT industry but also in Sports.<br>
+                        I want to become professional basketball player someday.
+                    </h3>
+                </div>
+            </div>
+        </div>
+        
+        
+</body>
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLink = document.querySelector('.nav__link');
+
+    hamburger.addEventListener('click', () => {
+    navLink.classList.toggle('hide');
+    });
+  </script>
+</html>

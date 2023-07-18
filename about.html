@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e10e4b1964.js" crossorigin="anonymous"></script>
+    <title>My Portfolio | about</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+          <img src="images/logo1.png" alt="Logo" class="logo">
+  
+          <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+  
+          <div class="nav__link hide">
+          
+              <a href="index.html">home</a>
+              <a href="myskills.html">My skills</a>
+              <a href="mydreams.html">My Dreams</a>
+              <a href="about.html">About</a>
+          
+          </div>
+        </nav>
+      </header>
+<!-- about -->
+
+<div class="about">
+	
+	<div class="container">
+		
+		<div class="row">
+			
+			<div class="about-col-1">
+				
+				<img src="images/94198671_2816231745098367_4638337286931480576_n.jpg">
+
+			</div> 
+
+			<div class="about-col-2"> 
+				<h1 class="sub-title">About Me</h1>
+				<p class="about-description">
+                    Welcome to my about page! Here, I aim to provide you with a concise overview of basic knowledge in front-end programming. 
+                    As a passionate front-end developer, I have acquired a solid foundation in the fundamental principles and technologies that power the user interface of websites and applications. From HTML and CSS to JavaScript and responsive design, I am well-versed in crafting visually appealing and interactive web experiences. 
+                    With an emphasis on user-centric design, I strive to create intuitive interfaces that enhance user engagement and satisfaction. I am continuously exploring the latest trends and advancements in front-end development to ensure that my skills are up to date and that I can deliver modern, seamless, and accessible user experiences. 
+                    I am excited to share my expertise and insights with you as we embark on this journey into the captivating world of front-end programming.
+                </p>
+                <div class="data">
+                    <a href="#contact" class="hire">Contact Me</a>
+                    <div style="margin-top: 30px; padding-top: 15px;"><a class="hire" href="downloadables/White simple student cv resume.pdf" download>Download My CV</a></div>
+                </div>
+
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<!-- contact -->
+<div id="contact">
+
+    <div class="container">
+        
+        <div class="row">
+            <div class="contact-left">
+                
+                <h1 class="sub-title">Contact Name</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Rommel Angelo Ebuenga</p>
+                <p><i class="fa-solid fa-phone"></i>09228877887</p>
+                <p><i class="fa-solid fa-envelope"></i>rommelebuenga@outlook.com </p>
+
+                <div class="social-icons">
+                    
+                    <a href="https://www.facebook.com/Ra.ebuenga"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+
+            </div>
+            <div class="contact-right">
+                
+                <form name="submit-to-google-sheet">
+                    
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+
+                <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"> </span>
+            </div>
+
+            
+        </div>
+
+    </div>
+   <div class="copyright">
+       
+       <p>Copyright Ⓒ Rommel Angelo Ebuenga. COMP 20133 Final Requirement</p>
+
+   </div>
+</div>
+
+
+
+
+</body>
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLink = document.querySelector('.nav__link');
+
+    hamburger.addEventListener('click', () => {
+    navLink.classList.toggle('hide');
+    });
+  </script>
+</html>
